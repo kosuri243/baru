@@ -6,6 +6,14 @@ body{
     width: 30%;
     position: relative;
 }
+@media (max-width:850px) {
+    .card{
+        margin: 10px;
+        width: 95%;
+        position: relative;
+    }
+    
+}
 .card:hover .content{
     display: block;
     transform: perspective(400px) rotateX(90deg);

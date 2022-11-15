@@ -75,9 +75,9 @@ body{
     padding: 45px; 
     height: 100%;
 }
-@media (max-width:1000px) {
+@media (max-width:850px) {
     .main-body{
-        display: block;
+        display: flex;
         justify-content:center;
         margin: 0px;
         background: linear-gradient(90deg,#0062e6,#33aeff);
